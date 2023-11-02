@@ -3,14 +3,14 @@ import "./Section4.css"
 
 const Section4 = () => {
   return (<>
-    <div class="master4Container">
-          <div class="headerFourth">
+    <div class="master4Container" style={{backgroundColor:"white"}}>
+          <div class="headerFourth"style={{backgroundColor:"white"}}>
             Everything you need for any workflow
           </div>
-          <div class="subHeader">
+          <div class="subHeader"style={{backgroundColor:"white"}}>
             Easily build your ideal workflow with monday.com building blocks.
           </div>
-          <div class="menuBar">
+          <div class="menuBar" style={{backgroundColor:"white"}}>
             <div id="men1" class="men menBorder">Boards</div>
             <div id="men2" class="men">Views</div>
             <div id="men3" class="men">Dashboards</div>
@@ -21,7 +21,7 @@ const Section4 = () => {
           </div>
         </div>
       
-    <div class="fourthBodyContainer">
+    <div class="fourthBodyContainer"style={{backgroundColor:"white"}}>
       <div class="videoAnimation">
         <video class="video" preload="auto" loop=""
           poster="https://dapulse-res.cloudinary.com/video/upload/so_0p/Generator_featured images/Home Page - 2022 Rebrand/tabs/final-videos-tabs/7_status.jpg"
